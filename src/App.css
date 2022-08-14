@@ -1,0 +1,92 @@
+/*
+    image-container: 
+    A new div will be used for the overlay, which becomes
+    present when user hovers over the image. This will allow the image to scale and
+    a overlay with opacity properties will show some text.
+    */
+
+body {
+  background: #f8a7e5;
+  color: #f5ecec;
+}
+
+.movie-app>.row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  border-radius: 8px;
+}
+
+.image-container {
+  position: relative;
+  border-radius: 8px;
+  max-width: 275px;
+  max-height: 240px;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  border-radius: 8px;
+  transform: scale(0.85);
+  max-width: auto;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: relative;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  max-width: 50%;
+  height: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 17px;
+  padding: 25px;
+  text-align: left;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
