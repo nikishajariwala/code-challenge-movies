@@ -1,3 +1,11 @@
+###Please find the attached links below for the video demo of the submission and the explanation of the code:
+
+a.	Video demo walking through the submission: 
+    https://youtu.be/35kILWGJMbU
+
+b.	Code explanation video:
+    https://youtu.be/ilkTMQ1zwWQ
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
