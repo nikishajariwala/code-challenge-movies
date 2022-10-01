@@ -1,4 +1,7 @@
-###Please find the attached links below for the video demo of the submission and the explanation of the code:
+# Checkout the deployed app
+https://code-challenge-movies-omdbapi.netlify.app/
+
+# Please find the attached links below for the video demo of the submission and the explanation of the code:
 
 a.	Video demo walking through the submission: 
     https://youtu.be/35kILWGJMbU
